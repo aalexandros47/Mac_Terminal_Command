@@ -1,8 +1,8 @@
 # 🖥 Terminal Cheatsheet for Mac (Basics)
 
-## Navigation
+## Essential Navigation
 
-### Jump around efficiently within the command line:
+### Navigate efficiently within the command line and files:
 
 | Key/Command  | Description                       |
 | ------------ | --------------------------------- |
@@ -15,9 +15,24 @@
 | `Ctrl + L`   | Clear the screen                  |
 | `Cmd + K`    | Clear the screen (macOS specific) |
 
-## Editing
+## Core Commands
 
-### Cut, copy, and manipulate text quickly:
+### Fundamental commands for daily file and directory management:
+
+| Key/Command | Description                         |
+| ----------- | ----------------------------------- |
+| `cd`        | Change directory                    |
+| `ls`        | List directory contents             |
+| `pwd`       | Show current directory              |
+| `mkdir`     | Create a new directory              |
+| `rm`        | Remove files or directories         |
+| `cp`        | Copy files or directories           |
+| `mv`        | Move or rename files or directories |
+| `touch`     | Create a new empty file             |
+
+## Text Editing and Manipulation
+
+### Manage and manipulate text directly from the command line:
 
 | Key/Command       | Description                                                           |
 | ----------------- | --------------------------------------------------------------------- |
@@ -29,42 +44,33 @@
 | `Ctrl + T`        | Swap the last two characters before the cursor                        |
 | `Esc + T`         | Swap the last two words before the cursor                             |
 
-## Process Control
+## Advanced Command Manipulation
 
-### Manage running processes easily:
+### Chaining, redirection, and more advanced functionalities:
 
-| Key/Command | Description                          |
-| ----------- | ------------------------------------ |
-| `Ctrl + C`  | Terminate the current application    |
-| `Ctrl + Z`  | Suspend/stop the current application |
-| `Ctrl + D`  | Exit the current shell               |
+| Key/Command                  | Description                                              |
+| ---------------------------- | -------------------------------------------------------- |
+| `[command-a]; [command-b]`   | Run command A and then B, regardless of A's success      |
+| `[command-a] && [command-b]` | Run B if A succeeded                                     |
+| `[command-a] \| [command-b]` | Pipe output of A to B for further processing             |
+| `>`, `>>`                    | Redirect command output to a file (overwrite and append) |
 
-## Basic Commands
+## Process Management
 
-### Core utilities and navigational commands:
+### Control and manage processes:
 
-| Key/Command | Description                         |
-| ----------- | ----------------------------------- |
-| `cd`        | Change directory                    |
-| `ls`        | List directory contents             |
-| `pwd`       | Show current directory              |
-| `cp`        | Copy files or directories           |
-| `mv`        | Move or rename files or directories |
-| `rm`        | Remove files or directories         |
+| Key/Command | Description                            |
+| ----------- | -------------------------------------- |
+| `Ctrl + C`  | Terminate the current application      |
+| `Ctrl + Z`  | Suspend/stop the current application   |
+| `Ctrl + D`  | Exit the current shell                 |
+| `top`       | Display and manage active processes    |
+| `ps`        | Report a snapshot of current processes |
+| `kill`      | Send a signal to a process             |
 
-## Advanced Manipulations
+## Searching Files
 
-### Chaining and combining commands:
-
-| Key/Command                  | Description                                         |
-| ---------------------------- | --------------------------------------------------- |
-| `[command-a]; [command-b]`   | Run command A and then B, regardless of A's success |
-| `[command-a] && [command-b]` | Run B if A succeeded                                |
-| `[command-a] \| [command-b]` | Pipe output of A to B for further processing        |
-
-## Finding Things
-
-### Search files and text within files:
+### Locate files and text within files quickly:
 
 | Key/Command | Description                                     |
 | ----------- | ----------------------------------------------- |
@@ -72,9 +78,9 @@
 | `grep`      | Search inside files                             |
 | `mdfind`    | Use Spotlight search for files (macOS specific) |
 
-## Help and Manuals
+## Help and Information
 
-### When you need some help:
+### Access manuals and command help:
 
 | Key/Command                | Description                                   |
 | -------------------------- | --------------------------------------------- |
